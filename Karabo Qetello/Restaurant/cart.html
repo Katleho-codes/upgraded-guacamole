@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Title Page</title>
+
+        <!-- Bootstrap CSS -->
+        <link href="css/main.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Inter:wght@100;200;300;400;500;531;600;700;800;900&family=Lobster&family=Montserrat:ital,wght@1,500&family=Oxygen:wght@300;400;700&family=Raleway:ital,wght@0,100;0,500;1,400;1,500&family=Roboto:ital,wght@0,400;1,700;1,900&display=swap" rel="stylesheet">
+
+    
+    </head>
+    <body>
+        
+<div id="site">
+	<header id="masthead">
+		<h1>Winery <span class="tagline">since 1999</h1>
+	</header>
+	<div id="content">
+		<h1>Your Shopping Cart</h1>
+		<form id="shopping-cart" action="cart.html" method="post">
+			<table class="shopping-cart">
+			  <thead>
+				<tr>
+					<th scope="col">Item</th>
+					<th scope="col">Qty</th>
+					<th scope="col" colspan="2">Price</th>
+				</tr>
+			  </thead>
+			  <tbody>
+			  
+			  </tbody>
+			</table>
+			<p id="sub-total">
+				<strong>Sub Total</strong>: <span id="stotal"></span>
+			</p>
+			<ul id="shopping-cart-actions">
+				<li>
+					<input type="submit" name="update" id="update-cart" class="btn" value="Update Cart" />
+				</li>
+				<li>
+					<input type="submit" name="delete" id="empty-cart" class="btn" value="Empty Cart" />
+				</li>
+				<li>
+					<a href="products.html" class="btn">Continue Shopping</a>
+				</li>
+				<li>
+					<a href="checkout.html" class="btn">Go To Checkout</a>
+				</li>
+			</ul>
+		</form>
+	</div>
+	
+	
+
+</div>
+
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="js/store.js"></script>
+
+        
+    </body>
+</html>
